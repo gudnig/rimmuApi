@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 cd rimmuApi
-pip install -r REQUIREMENTS.txt
+ls
+pip install -r requirements.txt
 python manage.py migrate
 python manage.py test
