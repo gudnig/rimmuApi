@@ -1,0 +1,1 @@
+Api for managing attendance and other things
