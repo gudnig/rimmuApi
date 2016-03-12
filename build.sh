@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-source /venv/bin/activate
+cd rimmuApi
 pip install -r REQUIREMENTS.txt
 python manage.py migrate
 python manage.py test
