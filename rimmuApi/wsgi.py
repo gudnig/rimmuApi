@@ -8,12 +8,12 @@ https://docs.djangoproject.com/en/1.9/howto/deployment/wsgi/
 """
 
 import os
-from rimmuApi import training
+import rimmuApi
 
 # from django.core.wsgi import get_wsgi_application
 
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "rimmuApi.settings")
 
 
-application = training
+application = rimmuApi
 # application = get_wsgi_application()
